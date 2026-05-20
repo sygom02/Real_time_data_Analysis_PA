@@ -163,19 +163,8 @@ roslaunch ./launch/cartographer_parallel_with_bag.launch \
   perf_csv_file:=$PWD/results/test4_gpu_block_cached_map_shared_perf.csv
 ```
 
-### TEST5: cached map + shared memory + pruning
 
-```bash
-roslaunch ./launch/cartographer_parallel_with_bag.launch \
-  ns:=student02 \
-  use_bag:=false \
-  map_yaml_file:=$PWD/maps/0501.yaml \
-  scan_topic:=scan \
-  score_all_backend:=gpu_block_cached_map_shared_pruned \
-  perf_csv_file:=$PWD/results/test5_gpu_block_cached_map_shared_pruned_perf.csv
-```
-
-### TEST6: cached map + shared memory + pinned memory
+### TEST5: cached map + shared memory + pinned memory
 
 ```bash
 roslaunch ./launch/cartographer_parallel_with_bag.launch \
@@ -185,6 +174,17 @@ roslaunch ./launch/cartographer_parallel_with_bag.launch \
   scan_topic:=scan \
   score_all_backend:=gpu_block_cached_map_shared_pinned \
   perf_csv_file:=$PWD/results/test6_gpu_block_cached_map_shared_pinned_perf.csv
+```
+### TEST6: cached map + shared memory + pruning
+
+```bash
+roslaunch ./launch/cartographer_parallel_with_bag.launch \
+  ns:=student02 \
+  use_bag:=false \
+  map_yaml_file:=$PWD/maps/0501.yaml \
+  scan_topic:=scan \
+  score_all_backend:=gpu_block_cached_map_shared_pruned \
+  perf_csv_file:=$PWD/results/test5_gpu_block_cached_map_shared_pruned_perf.csv
 ```
 
 ### TEST7: cached map + shared memory + reusable device buffers
@@ -199,17 +199,7 @@ roslaunch ./launch/cartographer_parallel_with_bag.launch \
   perf_csv_file:=$PWD/results/test7_shared_reuse_buffers_perf.csv
 ```
 
-### TEST8: cached map + shared memory + pinned memory + reusable device buffers
 
-```bash
-roslaunch ./launch/cartographer_parallel_with_bag.launch \
-  ns:=student02 \
-  use_bag:=false \
-  map_yaml_file:=$PWD/maps/0501.yaml \
-  scan_topic:=scan \
-  score_all_backend:=gpu_block_cached_map_shared_pinned_reuse \
-  perf_csv_file:=$PWD/results/test8_shared_pinned_reuse_perf.csv
-```
 
 ## 5. GPU Block Thread Tests
 
