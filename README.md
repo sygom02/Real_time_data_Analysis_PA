@@ -173,7 +173,7 @@ roslaunch ./launch/cartographer_parallel_with_bag.launch \
   map_yaml_file:=$PWD/maps/0501.yaml \
   scan_topic:=scan \
   score_all_backend:=gpu_block_cached_map_shared_pinned \
-  perf_csv_file:=$PWD/results/test6_gpu_block_cached_map_shared_pinned_perf.csv
+  perf_csv_file:=$PWD/results/test5_gpu_block_cached_map_shared_pinned_perf.csv
 ```
 ### TEST6: cached map + shared memory + pruning
 
@@ -184,7 +184,7 @@ roslaunch ./launch/cartographer_parallel_with_bag.launch \
   map_yaml_file:=$PWD/maps/0501.yaml \
   scan_topic:=scan \
   score_all_backend:=gpu_block_cached_map_shared_pruned \
-  perf_csv_file:=$PWD/results/test5_gpu_block_cached_map_shared_pruned_perf.csv
+  perf_csv_file:=$PWD/results/test6_gpu_block_cached_map_shared_pruned_perf.csv
 ```
 
 ### TEST7: cached map + shared memory + reusable device buffers
