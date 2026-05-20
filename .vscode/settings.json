@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^/usr/bin/python3 - <<'PY'\nimport sqlite3, json, os\npath='scan\\.db3'\nconn=sqlite3\\.connect\\(path\\)\ncur=conn\\.cursor\\(\\)\ncur\\.execute\\(\"select name from sqlite_master where type='table'\"\\)\nprint\\('tables:', cur\\.fetchall\\(\\)\\)\nfor t in \\['topics','messages','schema_version','metadata'\\]:\n    try:\n        cur\\.execute\\(f'select \\* from \\{t\\} limit 5'\\)\n        rows=cur\\.fetchall\\(\\)\n        print\\('\\\\nTABLE',t,'rows',len\\(rows\\)\\)\n        for r in rows:\n            print\\(r\\)\n    except Exception as e:\n        print\\('\\\\nTABLE',t,'ERR',e\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

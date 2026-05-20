@@ -1,0 +1,4 @@
+label,backend_requested,score_all_ms_avg,score_all_throughput_mchecks_s_avg,vs_test3_speedup_x,vs_test3_ms_change_pct,vs_test4_ms_change_pct,evaluated_cell_check_ratio_pct
+test3_block_per_candidate,gpu_block_per_candidate,15.104,284.107,1.0,0.0,109.9235580264072,100.0
+test4_block_cached_map_shared,gpu_block_cached_map_shared,7.195,597.302,2.099235580264072,-52.363612288135585,0.0,100.0
+test4_plus_pinned_memory,gpu_block_cached_map_shared_pinned,8.614,498.882,1.7534246575342463,-42.96874999999999,19.722029186935377,100.0

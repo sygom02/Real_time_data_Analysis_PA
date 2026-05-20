@@ -1,0 +1,5 @@
+label,runs,backend_requested,backend_active,samples,match_ms_avg,score_all_ms_avg,score_all_throughput_mchecks_s_avg,cpu_speedup_x,prev_score_all_ms_change_pct,prev_throughput_change_pct,score_all_candidates_total,score_all_evaluated_candidates_total,score_all_cell_checks_total,score_all_evaluated_cell_checks_total,evaluated_cell_check_ratio_pct
+test2_baseline,1,gpu_thread_per_candidate,gpu_thread_per_candidate,3341.0,26.125,21.72,197.065,1.0,0.0,0.0,13296604.0,13296604.0,14300245604.0,14300245604.0,100.0
+test2_plus_test3_block,1,gpu_block_per_candidate,gpu_block_per_candidate,3661.0,20.76,16.682,257.083,1.3020021580146266,-23.19521178637201,30.455940933194647,14604188.0,14604188.0,15700694954.0,15700694954.0,100.0
+test2_plus_test4_cached_map,1,gpu_thread_cached_map,gpu_thread_cached_map,3799.0,16.475,11.963,359.061,1.8155980941235477,-28.287975062942092,39.66734478748106,15182534.0,15182534.0,16317870272.0,16317870272.0,100.0
+test2_plus_test5_pruned,1,gpu_thread_pruned,gpu_thread_pruned,3481.0,24.05,20.346,210.609,1.0675317015629606,70.07439605450139,-41.34450692222212,13873030.0,13869062.0,14916274770.0,14911985362.0,99.97124343667477

@@ -1,0 +1,66 @@
+[INFO] [launch]: All log files can be found below /home/symoon/.ros/log/2026-05-17-17-41-19-772117-symoon-HP-ZBook-Create-G7-Notebook-PC-74563
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [fast_correlative_node-1]: process started with pid [74565]
+[INFO] [ros2-2]: process started with pid [74567]
+[fast_correlative_node-1] [INFO] [1779007279.836862865] [student01.fast_correlative_node]: score_all_backend requested=gpu_block_per_candidate cuda_build=available
+[fast_correlative_node-1] [INFO] [1779007279.934863920] [student01.fast_correlative_node]: Loaded map /home/symoon/Desktop/carrographer_task_ros2/install/cartographer_parallel/share/cartographer_parallel/maps/0501.yaml (467x314, resolution 0.050)
+[fast_correlative_node-1] [INFO] [1779007279.934902430] [student01.fast_correlative_node]: Initial search: full_map=true, global_window=30.000, angular_window=3.150, angular_step=0.035, branch_depth=3, accept_score=0.900
+[fast_correlative_node-1] [INFO] [1779007279.934911833] [student01.fast_correlative_node]: Initial refine: linear_window=1.000, angular_window=0.080, angular_step=0.005, branch_depth=2
+[ros2-2] stdin is not a terminal device. Keyboard handling disabled.[INFO] [1779007280.028851264] [rosbag2_storage]: Opened database '/home/symoon/Desktop/carrographer_task_ros2/install/cartographer_parallel/share/cartographer_parallel/bags/scan.db3' for READ_ONLY.
+[ros2-2] [INFO] [1779007280.028888354] [rosbag2_player]: Set rate to 1
+[ros2-2] [INFO] [1779007280.032220604] [rosbag2_storage]: Opened database '/home/symoon/Desktop/carrographer_task_ros2/install/cartographer_parallel/share/cartographer_parallel/bags/scan.db3' for READ_ONLY.
+[fast_correlative_node-1] [INFO] [1779007280.413324249] [student01.fast_correlative_node]: perf match=279.91ms score_all=273.40ms ratio=97.7% throughput=15.6Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007282.420560374] [student01.fast_correlative_node]: perf match=11.61ms score_all=9.06ms ratio=78.0% throughput=474.2Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007284.421896782] [student01.fast_correlative_node]: perf match=12.51ms score_all=9.73ms ratio=77.8% throughput=443.0Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007286.423371935] [student01.fast_correlative_node]: perf match=13.13ms score_all=10.57ms ratio=80.5% throughput=408.3Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007288.473783466] [student01.fast_correlative_node]: perf match=33.80ms score_all=23.17ms ratio=68.6% throughput=182.9Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007290.479039390] [student01.fast_correlative_node]: perf match=8.91ms score_all=6.50ms ratio=72.9% throughput=635.1Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007292.484486651] [student01.fast_correlative_node]: perf match=15.45ms score_all=12.67ms ratio=82.0% throughput=330.3Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007294.501571896] [student01.fast_correlative_node]: perf match=29.33ms score_all=25.77ms ratio=87.9% throughput=179.6Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007296.509961792] [student01.fast_correlative_node]: perf match=10.72ms score_all=8.17ms ratio=76.2% throughput=519.2Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007298.525999952] [student01.fast_correlative_node]: perf match=17.02ms score_all=14.14ms ratio=83.1% throughput=312.9Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007300.527181076] [student01.fast_correlative_node]: perf match=7.70ms score_all=5.18ms ratio=67.3% throughput=811.0Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007302.530141697] [student01.fast_correlative_node]: perf match=9.25ms score_all=6.76ms ratio=73.1% throughput=627.8Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007304.576759770] [student01.fast_correlative_node]: perf match=27.02ms score_all=15.90ms ratio=58.8% throughput=265.5Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007306.589173670] [student01.fast_correlative_node]: perf match=10.13ms score_all=7.49ms ratio=73.9% throughput=568.7Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007308.598997412] [student01.fast_correlative_node]: perf match=20.09ms score_all=17.16ms ratio=85.4% throughput=260.8Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007310.625156478] [student01.fast_correlative_node]: perf match=15.60ms score_all=12.86ms ratio=82.4% throughput=340.0Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007312.653567604] [student01.fast_correlative_node]: perf match=14.30ms score_all=11.56ms ratio=80.8% throughput=376.8Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007314.677745792] [student01.fast_correlative_node]: perf match=8.83ms score_all=6.40ms ratio=72.4% throughput=661.8Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007316.678555966] [student01.fast_correlative_node]: perf match=9.71ms score_all=7.08ms ratio=72.9% throughput=598.5Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007318.680370088] [student01.fast_correlative_node]: perf match=11.61ms score_all=8.80ms ratio=75.8% throughput=483.9Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007320.687090088] [student01.fast_correlative_node]: perf match=8.19ms score_all=5.71ms ratio=69.7% throughput=725.0Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007322.693958589] [student01.fast_correlative_node]: perf match=13.99ms score_all=11.12ms ratio=79.5% throughput=385.5Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007324.709847922] [student01.fast_correlative_node]: perf match=17.55ms score_all=14.65ms ratio=83.5% throughput=291.1Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007326.728409213] [student01.fast_correlative_node]: perf match=18.76ms score_all=15.84ms ratio=84.5% throughput=274.3Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007328.760435337] [student01.fast_correlative_node]: perf match=11.62ms score_all=8.50ms ratio=73.1% throughput=494.3Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007330.763286539] [student01.fast_correlative_node]: perf match=13.60ms score_all=10.20ms ratio=75.0% throughput=421.9Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007332.766601327] [student01.fast_correlative_node]: perf match=17.73ms score_all=14.87ms ratio=83.9% throughput=298.6Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007334.773977414] [student01.fast_correlative_node]: perf match=14.03ms score_all=11.21ms ratio=79.9% throughput=378.9Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007336.790583971] [student01.fast_correlative_node]: perf match=12.04ms score_all=9.00ms ratio=74.7% throughput=474.1Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007338.796877805] [student01.fast_correlative_node]: perf match=6.93ms score_all=4.53ms ratio=65.4% throughput=925.2Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007340.809529313] [student01.fast_correlative_node]: perf match=22.91ms score_all=19.91ms ratio=86.9% throughput=228.5Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007342.815291944] [student01.fast_correlative_node]: perf match=15.10ms score_all=12.37ms ratio=81.9% throughput=349.3Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007344.859372009] [student01.fast_correlative_node]: perf match=30.23ms score_all=21.04ms ratio=69.6% throughput=207.3Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007346.869273365] [student01.fast_correlative_node]: perf match=9.35ms score_all=6.93ms ratio=74.0% throughput=613.1Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007348.901437680] [student01.fast_correlative_node]: perf match=13.03ms score_all=9.07ms ratio=69.6% throughput=470.2Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007350.917963222] [student01.fast_correlative_node]: perf match=9.29ms score_all=6.01ms ratio=64.7% throughput=692.7Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007352.933273302] [student01.fast_correlative_node]: perf match=14.91ms score_all=12.03ms ratio=80.7% throughput=343.1Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007354.937790615] [student01.fast_correlative_node]: perf match=16.09ms score_all=13.19ms ratio=82.0% throughput=327.1Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007356.938779124] [student01.fast_correlative_node]: perf match=10.61ms score_all=7.57ms ratio=71.3% throughput=557.4Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007358.946318575] [student01.fast_correlative_node]: perf match=17.86ms score_all=14.49ms ratio=81.1% throughput=303.8Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007360.956557062] [student01.fast_correlative_node]: perf match=11.95ms score_all=8.94ms ratio=74.9% throughput=480.6Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007362.979329121] [student01.fast_correlative_node]: perf match=11.33ms score_all=7.27ms ratio=64.1% throughput=579.7Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007364.998381533] [student01.fast_correlative_node]: perf match=29.33ms score_all=18.72ms ratio=63.8% throughput=225.6Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007367.009380427] [student01.fast_correlative_node]: perf match=10.98ms score_all=8.17ms ratio=74.4% throughput=517.9Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007369.021065120] [student01.fast_correlative_node]: perf match=12.88ms score_all=10.16ms ratio=78.9% throughput=427.8Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007371.037562543] [student01.fast_correlative_node]: perf match=29.05ms score_all=22.75ms ratio=78.3% throughput=197.3Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007373.059105271] [student01.fast_correlative_node]: perf match=21.10ms score_all=18.13ms ratio=85.9% throughput=250.5Mchecks/s
+[fast_correlative_node-1] [INFO] [1779007375.061277227] [student01.fast_correlative_node]: perf match=20.50ms score_all=17.33ms ratio=84.6% throughput=260.0Mchecks/s
+[INFO] [ros2-2]: process has finished cleanly [pid 74567]
+[fast_correlative_node-1] [INFO] [1779007377.443010292] [student01.fast_correlative_node]: perf_summary_json={"type":"score_all_perf_summary","score_all_backend_requested":"gpu_block_per_candidate","score_all_backend_active":"gpu_block_per_candidate","score_all_cuda_build":true,"samples":3835,"match_ms_avg":14.498,"score_all_ms_avg":11.245,"score_all_ratio_pct":77.564,"score_all_throughput_mchecks_s_avg":382.099,"score_avg":0.830,"match_ms_sum":55600.883,"score_all_ms_sum":43126.005,"score_all_calls_total":211477,"score_all_candidates_total":15333224,"score_all_evaluated_candidates_total":15333224,"score_all_scan_points_total":226950013,"score_all_cell_checks_total":16478387538,"score_all_evaluated_cell_checks_total":16478387538,"last":{"match_ms":21.552,"score_all_ms":18.135,"score_all_ratio_pct":84.145,"score_all_throughput_mchecks_s":248.445,"score":0.783,"score_all_calls":98,"score_all_candidates":4168,"score_all_evaluated_candidates":4168,"score_all_cell_checks":4505608,"score_all_evaluated_cell_checks":4505608}}
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [fast_correlative_node-1]: sending signal 'SIGINT' to process[fast_correlative_node-1]
+[fast_correlative_node-1] [INFO] [1779007411.460356701] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[fast_correlative_node-1] [INFO] [1779007411.462043883] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [fast_correlative_node-1]: process has finished cleanly [pid 74565]

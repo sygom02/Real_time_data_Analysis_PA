@@ -1,0 +1,2 @@
+label,runs,backend_requested,backend_active,samples,match_ms_avg,score_all_ms_avg,score_all_throughput_mchecks_s_avg,cpu_speedup_x,prev_score_all_ms_change_pct,prev_throughput_change_pct,score_all_candidates_total,score_all_evaluated_candidates_total,score_all_cell_checks_total,score_all_evaluated_cell_checks_total,evaluated_cell_check_ratio_pct
+gpu_block_per_candidate,1,gpu_block_per_candidate,gpu_block_per_candidate,3835.0,14.498,11.245,382.099,1.0,0.0,0.0,15333224.0,15333224.0,16478387538.0,16478387538.0,100.0

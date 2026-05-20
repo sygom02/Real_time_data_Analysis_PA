@@ -1,0 +1,3 @@
+label,backend_requested,score_all_ms_avg,score_all_throughput_mchecks_s_avg,vs_test3_speedup_x,vs_test3_ms_change_pct,vs_test4_ms_change_pct,evaluated_cell_check_ratio_pct
+test2_plus_test3_block,gpu_block_per_candidate,16.682,257.083,1.0,0.0,39.44662710022569,100.0
+test2_plus_test4_cached_map,gpu_thread_cached_map,11.963,359.061,1.3944662710022568,-28.287975062942092,0.0,100.0

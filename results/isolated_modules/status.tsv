@@ -1,0 +1,4 @@
+test2_baseline	gpu_thread_per_candidate	OK	3341
+test2_plus_test3_block	gpu_block_per_candidate	OK	3661
+test2_plus_test4_cached_map	gpu_thread_cached_map	OK	3799
+test2_plus_test5_pruned	gpu_thread_pruned	OK	3481

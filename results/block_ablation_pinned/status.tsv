@@ -1,0 +1,3 @@
+test3_block_per_candidate	gpu_block_per_candidate	OK	124
+test4_block_cached_map_shared	gpu_block_cached_map_shared	OK	124
+test4_plus_pinned_memory	gpu_block_cached_map_shared_pinned	OK	124

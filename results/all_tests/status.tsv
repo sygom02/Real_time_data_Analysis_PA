@@ -1,0 +1,5 @@
+test1_cpu_baseline	cpu_baseline	OK	124
+test2_gpu_thread_per_candidate	gpu_thread_per_candidate	OK	124
+test3_gpu_block_per_candidate	gpu_block_per_candidate	OK	124
+test4_gpu_block_cached_map_shared	gpu_block_cached_map_shared	OK	124
+test5_gpu_block_cached_map_shared_pruned	gpu_block_cached_map_shared_pruned	OK	124
